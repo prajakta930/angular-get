@@ -14,6 +14,8 @@ export class AppComponent {
     this.postData.getPosts().subscribe((result)=>{
       console.log(result);
       this.data=result;
+
+      this.postData.postPosts()
     })
   }
 }
