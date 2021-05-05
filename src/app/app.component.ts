@@ -16,6 +16,8 @@ export class AppComponent {
       this.data=result;
 
       this.postData.postPosts()
+
+      this.postData.updatePosts()
     })
   }
 }
